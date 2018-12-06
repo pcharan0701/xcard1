@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>xcard1-releases</id>
       <name>xcard1-releases</name>
-      <url>http://ec2-3-17-39-234.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/xcard1-releases</url>
+      <url>http://ip-172-31-45-26.us-east-2.compute.internal:8081/nexus/content/repositories/xcard1-releases</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>xcard1-snapshots</id>
       <name>xcard1-snapshots</name>
-      <url>http://ec2-3-17-39-234.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/xcard1-snapshots/</url>
+      <url>http://ip-172-31-45-26.us-east-2.compute.internal:8081/nexus/content/repositories/xcard1-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
